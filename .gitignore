@@ -32,7 +32,7 @@ FallAndFloat/[Aa]ssets/Plugins/Editor/JetBrains*
 # IDE cache directories
 /FallAndFloat/.vs/
 /FallAndFloat/.vscode/
-/FallAndFloat/.idea
+.idea
 
 # Gradle cache directory
 .gradle/

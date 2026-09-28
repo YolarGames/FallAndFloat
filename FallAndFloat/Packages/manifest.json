@@ -2,15 +2,15 @@
   "dependencies": {
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
     "com.github-glitchenzo.nugetforunity": "4.5.0",
-    "com.kyrylokuzyk.primetween": "file:../Assets/Plugins/PrimeTween/internal/com.kyrylokuzyk.primetween.tgz",
+    "com.kyrylokuzyk.primetween": "1.4.11",
     "com.unity.device-simulator.devices": "1.0.1",
     "com.unity.feature.2d": "2.0.2",
     "com.unity.ide.rider": "3.0.40",
     "com.unity.mobile.android-logcat": "1.4.7",
-    "com.unity.render-pipelines.universal": "17.4.0",
-    "com.unity.test-framework": "1.6.0",
-    "com.unity.ugui": "2.0.0",
-    "jp.hadashikick.vcontainer": "https://github.com/hadashiA/VContainer.git?path=VContainer/Assets/VContainer#1.16.8",
+    "com.unity.render-pipelines.universal": "17.6.0",
+    "com.unity.test-framework": "1.8.0",
+    "com.unity.ugui": "2.6.0",
+    "jp.hadashikick.vcontainer": "1.19.0",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.adaptiveperformance": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
@@ -23,8 +23,11 @@
     "com.unity.modules.particlesystem": "1.0.0",
     "com.unity.modules.physics": "1.0.0",
     "com.unity.modules.physics2d": "1.0.0",
+    "com.unity.modules.physicscore2d": "1.0.0",
     "com.unity.modules.terrain": "1.0.0",
+    "com.unity.modules.tetgen": "1.0.0",
     "com.unity.modules.tilemap": "1.0.0",
+    "com.unity.modules.timelinefoundation": "1.0.0",
     "com.unity.modules.ui": "1.0.0",
     "com.unity.modules.uielements": "1.0.0",
     "com.unity.modules.unitywebrequest": "1.0.0"
@@ -34,7 +37,15 @@
       "name": "package.openupm.com",
       "url": "https://package.openupm.com",
       "scopes": [
-        "com.github-glitchenzo.nugetforunity"
+        "com.github-glitchenzo.nugetforunity",
+        "jp.hadashikick.vcontainer"
+      ]
+    },
+    {
+      "name": "npm",
+      "url": "https://registry.npmjs.org",
+      "scopes": [
+        "com.kyrylokuzyk"
       ]
     }
   ]
