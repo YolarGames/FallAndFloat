@@ -21,8 +21,8 @@ namespace Features.vContainer
 		[SerializeField] private Camera _cameraPrefab;
 		[SerializeField] private EventSystem _eventSystemPrefab;
 		[SerializeField] private LoadingScreen _loadingScreenPrefab;
-		[Header("Configs")
-		 , SerializeField] private MeteorConfigSo _meteorConfig;
+		[Header("Configs"),
+		 SerializeField] private MeteorConfigSo _meteorConfig;
 		[SerializeField] private GameTextureConfigSo _gameTextureConfig;
 		[SerializeField] private AudioServiceConfigSo _audioServiceConfig;
 
@@ -37,6 +37,7 @@ namespace Features.vContainer
 			RegisterCamera(builder);
 			RegisterStateMachine(builder);
 			RegisterConfigs(builder);
+			
 			builder.Register<ISceneLoader, SceneLoader>(Lifetime.Singleton);
 			builder.Register<IMeteorFactory, MeteorFactory>(Lifetime.Singleton);
 			builder.Register<IInputHandler, ITickable, InputHandler>(Lifetime.Singleton);
